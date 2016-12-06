@@ -1,0 +1,121 @@
+.container-fluid.full-width {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.carousel-inner {
+  max-height: 270px;
+}
+
+.carousel-caption {
+  bottom: inherit;
+  top: 178px;
+}
+
+.works-tile {
+  height: 140px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.one-half {
+  width: 50%;
+}
+.one-third {
+  width: 33%;
+}
+.one-fourth {
+  width: 25%;
+}
+.one-fifth {
+  width: 20%;
+}
+
+.section-title {
+  line-height: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.about-page {
+  background: cornflowerblue;
+  color: white;
+  display: table;
+  min-height: 450px;
+  height: 100%;
+  width: 100%;
+}
+
+.about-page .about-content {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.about-page .about-content p {
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+
+.about-page .about-content h1 {
+  color: white;
+}
+
+.about-page .about-content button {
+  background: inherit;
+  color: inherit;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 8px 5%;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+
+body {
+  margin-bottom: 182px;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #444;
+  line-height: 70px;
+  color: white;
+  padding: 20px 40px;
+}
+
+.footer .page-link {
+  cursor: pointer;
+  margin-right: 34px;
+}
+.footer .home-link {
+  font-size: 1.2em;
+}
+
+.contact-wrapper .map {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .contact-wrapper {
+    display: table;
+  }
+
+  .contact-wrapper .about {
+    display: table-cell;
+    float: left;
+  }
+
+  .contact-wrapper .map {
+    display: table-cell;
+    width: 600px;
+  }
+}
